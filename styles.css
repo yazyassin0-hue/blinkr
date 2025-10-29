@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,body,#root{height:100%}
+body{font-family: 'Segoe UI', Tahoma, sans-serif; background: linear-gradient(180deg,#071422 0%,#02141a 100%); color:#fff}
+.container{max-width:900px;margin:2rem auto;padding:1rem}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01)); border-radius:12px; padding:1rem}
+.btn{background:linear-gradient(90deg,#0ea5a0,#0b8f8a); padding:.5rem 1rem; border-radius:8px; color:white}
+.rtl{direction:rtl}
+.ltr{direction:ltr}
