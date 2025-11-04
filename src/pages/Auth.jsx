@@ -19,25 +19,7 @@ export default function Auth() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-blue-100 to-blue-300 p-6">
-      <div className="bg-white shadow-xl rounded-2xl p-8 w-full max-w-md text-center">
-        <h1 className="text-3xl font-bold text-blue-600 mb-6">تسجيل الدخول</h1>
-
-        <form onSubmit={handleLogin} className="flex flex-col gap-4">
-          <input
-            type="email"
-            placeholder="البريد الإلكتروني"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            className="border border-gray-300 rounded-lg p-3 text-right focus:outline-none focus:ring-2 focus:ring-blue-400"
-          />
-
-          <input
-            type="password"
-            placeholder="كلمة المرور"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            className="border border-gray-300 rounded-lg p-3 text-right focus:outline-none focus:ring-2 focus:ring-blue-400"
+    <div className="flex flex-col items-center justify-center min-h-         className="border border-gray-300 rounded-lg p-3 text-right focus:outline-none focus:ring-2 focus:ring-blue-400"
           />
 
           <button
