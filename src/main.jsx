@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Auth from './pages/Auth';
 import Chat from './pages/Chat';
 import './styles.css';
-import './i18n';
+import './i 18n';
 
 function App(){
   return (

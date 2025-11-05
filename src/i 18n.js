@@ -10,7 +10,7 @@ i18next.use(initReactI18next).init({
         welcome: 'Welcome to Blinkr',
         login: 'Login',
         signup: 'Sign Up',
-        logout: 'Logout',
+      logout: 'Logout',
       },
     },
     ar: {
