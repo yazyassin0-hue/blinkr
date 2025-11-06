@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useRef} from 'react';
-import { DemoBackend, useDemo, supabase } from '../lib/supabaseClient';
+import { supabase } from '../lib/supabaseClient';
 import { useTranslation } from 'react-i18next';
 
 function Bubble({m, me}){
